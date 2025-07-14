@@ -499,3 +499,130 @@ a {
 .enquiry-form .primary-btn {
     align-self: flex-start;
 }
+/* ----------- Tablet View (max width 768px) ----------- */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    margin: 5px 10px;
+  }
+
+  .hero-title, .section-title {
+    font-size: 32px;
+  }
+
+  .hero-link {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .section-image {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .stats-container {
+    gap: 20px;
+  }
+
+  .slide-title {
+    font-size: 32px;
+  }
+
+  .slide-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .footer .columns {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .column input {
+    max-width: 100%;
+  }
+}
+
+/* ----------- Mobile View (max width 480px) ----------- */
+@media (max-width: 480px) {
+  .logo {
+    width: 180px;
+  }
+
+  .slide-title {
+    font-size: 24px;
+  }
+
+  .slide-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-link {
+    font-size: 30px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .section-text {
+    font-size: 16px;
+  }
+
+  .stat-title {
+    font-size: 20px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .contact-info span {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
