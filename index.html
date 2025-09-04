@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinova International Educational Institute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="#" class="logo-link">
+                    <div class="logo">Rinova</div>
+                    <span class="logo-text">Institute</span>
+                </a>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <div class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About Us</a>
+                </div>
+                <div class="nav-item dropdown-parent">
+                    <a href="#programs" class="nav-link">Programs <span class="dropdown-arrow">▾</span></a>
+                    <div class="dropdown">
+                        <a href="#study-abroad" class="dropdown-link">Abroad Study</a>
+                        <a href="#ielts" class="dropdown-link">IELTS & PTE</a>
+                        <a href="#exam-prep" class="dropdown-link">Exam Preparation</a>
+                        <a href="#language" class="dropdown-link">Language Classes</a>
+                        <a href="#computer" class="dropdown-link">Computer Classes</a>
+                        <a href="#tuition" class="dropdown-link">Tuition Classes</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown-parent">
+                    <a href="#study-destinations" class="nav-link">Study Abroad <span class="dropdown-arrow">▾</span></a>
+                    <div class="dropdown">
+                        <a href="#uk" class="dropdown-link">Study In UK</a>
+                        <a href="#australia" class="dropdown-link">Study In Australia</a>
+                        <a href="#usa" class="dropdown-link">Study In US</a>
+                        <a href="#canada" class="dropdown-link">Study In Canada</a>
+                        <a href="#newzealand" class="dropdown-link">Study In New Zealand</a>
+                        <a href="#japan" class="dropdown-link">Study In India</a>
+                        <a href="#japan" class="dropdown-link">Study In Japan</a>
+                        <a href="#korea" class="dropdown-link">Study In Korea</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#blogs" class="nav-link">Blogs</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#enquiry" class="btn primary-btn nav-cta">Enquiry Now</a>
+                </div>
+            </nav>
+
+            <buttonbutton class="mobile-menu-toggle" id="mobile-toggle" aria-label="Open mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Slideshow -->
+    <section class="hero-slideshow" id="hero">
+        <div class="slideshow-container">
+            <div class="slide active" data-bg="https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in the UK</h1>
+                    <p class="slide-subtitle">Discover world-class education in historic universities</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in Australia</h1>
+                    <p class="slide-subtitle">Experience quality education in a vibrant multicultural society</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in the USA</h1>
+                    <p class="slide-subtitle">Join the world's leading innovation hub</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/1868676/pexels-photo-1868676.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in Canada</h1>
+                    <p class="slide-subtitle">Experience excellent education with post-study opportunities</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/3626622/pexels-photo-3626622.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in New Zealand</h1>
+                    <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in India</h1>
+                    <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/3626622/pexels-photo-3626622.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in Japan</h1>
+                    <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+            <div class="slide" data-bg="https://images.pexels.com/photos/3626622/pexels-photo-3626622.jpeg">
+                <div class="slide-content">
+                    <h1 class="slide-title">Study in Korea</h1>
+                    <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
+                    <button class="slide-btn">Explore Universities</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slideshow-nav">
+            <button class="slide-nav prev" id="prevBtn">❮</button>
+            <button class="slide-nav next" id="nextBtn">❯</button>
+        </div>
+        
+        <div class="slide-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+            <span class="indicator" data-slide="4"></span>
+        </div>
+    </section>
+
+    <!-- Main Hero Content -->
+    <section class="hero-content">
+        <div class="container">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="highlight">Empowering Students</span> for<br/>
+                    <span class="gradient-text">Global Success</span>
+                </h1>
+                <p class="hero-description">
+                    Rinova International Educational Institute is dedicated to providing comprehensive educational services, 
+                    including study abroad guidance, computer classes, personalized tuition, and language training, 
+                    all tailored to help students achieve their academic and professional goals.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn primary-btn pulse">Get Started Today</button>
+                    <a href="#about" class="btn secondary-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg" alt="Students studying" class="hero-image">
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <span class="card-number">2500+</span>
+                            <span class="card-text">Students Guided</span>
+                        </div>
+                        <div class="floating-card">
+                            <span class="card-number">15+</span>
+                            <span class="card-text">Years Experience</span>
+                        </div>
+                        <div class="floating-card">
+                            <span class="card-number">98%</span>
+                            <span class="card-text">Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title fade-up">Discover Rinova International</h2>
+                <p class="section-text fade-up">
+                    Rinova International Educational Institute has been a beacon of educational excellence since 2010, 
+                    dedicated to empowering students in Nepal through tailored educational services and expert guidance 
+                    for global opportunities.
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item fade-up">
+                        <div class="stat-icon">📅</div>
+                        <h3 class="stat-number">15+</h3>
+                        <p class="stat-label">Years of Excellence</p>
+                        <p class="stat-description">Since our inception, we have helped thousands of students achieve their academic aspirations.</p>
+                    </div>
+                    <div class="stat-item fade-up">
+                        <div class="stat-icon">🎓</div>
+                        <h3 class="stat-number">100+</h3>
+                        <p class="stat-label">Programs Offered</p>
+                        <p class="stat-description">We offer a diverse range of programs, ensuring every student finds the right path to success.</p>
+                    </div>
+                    <div class="stat-item fade-up">
+                        <div class="stat-icon">👥</div>
+                        <h3 class="stat-number">15</h3>
+                        <p class="stat-label">Expert Team Members</p>
+                        <p class="stat-description">Our dedicated team is committed to providing personalized support and guidance.</p>
+                    </div>
+                    <div class="stat-item fade-up">
+                        <div class="stat-icon">⭐</div>
+                        <h3 class="stat-number">4</h3>
+                        <p class="stat-label">Core Values</p>
+                        <p class="stat-description">We uphold values of integrity, excellence, empowerment, and inclusivity in all our endeavors.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-visual fade-up">
+                <img src="https://images.pexels.com/photos/159844/pexels-photo-159844.jpeg" alt="Rinova Campus" class="section-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="programs">
+        <div class="container">
+            <h2 class="section-title text-center fade-up">Our Services</h2>
+            <p class="section-subtitle text-center fade-up">Comprehensive educational solutions for your success</p>
+            
+            <div class="services-grid">
+                <!-- Study Abroad -->
+                <div class="service-card fade-up" id="study-abroad">
+                    <div class="service-icon">🌍</div>
+                    <h3 class="service-title">Study Abroad Guidance</h3>
+                    <p class="service-description">
+                        Expert consultation for international education with personalized university selection, 
+                        application support, and visa assistance.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature">✓ Personalized university matching</div>
+                        <div class="feature">✓ Application process support</div>
+                        <div class="feature">✓ Visa guidance and assistance</div>
+                    </div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <!-- Language Classes -->
+                <div class="service-card fade-up" id="language">
+                    <div class="service-icon">🗣️</div>
+                    <h3 class="service-title">Language Classes</h3>
+                    <p class="service-description">
+                        Interactive English and other language courses designed to enhance your communication 
+                        skills and build confidence for academic success.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature">✓ Interactive learning sessions</div>
+                        <div class="feature">✓ All proficiency levels covered</div>
+                        <div class="feature">✓ Expert native instructors</div>
+                    </div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <!-- IELTS & PTE -->
+                <div class="service-card fade-up" id="ielts">
+                    <div class="service-icon">📝</div>
+                    <h3 class="service-title">IELTS & PTE</h3>
+                    <p class="service-description">
+                        Comprehensive test preparation with proven strategies, practice materials, 
+                        and expert coaching to achieve your target scores.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature">✓ Proven test strategies</div>
+                        <div class="feature">✓ Comprehensive study materials</div>
+                        <div class="feature">✓ Mock tests and feedback</div>
+                    </div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <!-- Exam Preparation -->
+                <div class="service-card fade-up" id="exam-prep">
+                    <div class="service-icon">📚</div>
+                    <h3 class="service-title">Exam Preparation</h3>
+                    <p class="service-description">
+                        Specialized coaching for entrance exams with tailored study plans and 
+                        expert guidance to ensure academic success.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature">✓ Customized study plans</div>
+                        <div class="feature">✓ Expert coaching sessions</div>
+                        <div class="feature">✓ Regular progress tracking</div>
+                    </div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <!-- Computer Classes -->
+                <div class="service-card fade-up" id="computer">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Computer Classes</h3>
+                    <p class="service-description">
+                        Essential digital skills training from basic computer literacy to advanced 
+                        programming for today's competitive job market.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature">✓ Basic to advanced levels</div>
+                        <div class="feature">✓ Software training included</div>
+                        <div class="feature">✓ Programming and development</div>
+                    </div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <!-- Tuition Classes -->
+                <div class="service-card fade-up" id="tuition">
+                    <div class="service-icon">👨‍🏫</div>
+                    <h3 class="service-title">Tuition Classes</h3>
+                    <p class="service-description">
+                        Personalized tutoring with customized learning plans designed to address 
+                        your specific academic needs and learning style.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature">✓ One-on-one attention</div>
+                        <div class="feature">✓ Customized learning plans</div>
+                        <div class="feature">✓ Improved academic performance</div>
+                    </div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blogs">
+        <div class="container">
+            <h2 class="section-title text-center fade-up">Latest Insights</h2>
+            <p class="section-subtitle text-center fade-up">Stay updated with our latest blogs, events, and university meetups</p>
+            
+            <div class="blog-grid">
+                <article class="blog-card fade-up">
+                    <div class="blog-image-container">
+                        <img src="https://images.pexels.com/photos/5905713/pexels-photo-5905713.jpeg" alt="Post-Study Work Visa in Australia" class="blog-image">
+                        <div class="blog-overlay">
+                            <span class="blog-category">Study Tips</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Post-Study Work Visa in Australia: Best Guide 2025</h3>
+                        <p class="blog-meta">
+                            <span class="blog-date">February 6, 2025</span>
+                            <span class="blog-author">Rinova International</span>
+                        </p>
+                        <p class="blog-excerpt">
+                            Australia has consistently ranked as a preferred choice for international students, 
+                            providing quality education and great job opportunities...
+                        </p>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card fade-up">
+                    <div class="blog-image-container">
+                        <img src="https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg" alt="Masters by Research in Australia" class="blog-image">
+                        <div class="blog-overlay">
+                            <span class="blog-category">Research</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Masters by Research in Australia from Nepal: Start Your Research Journey Today!</h3>
+                        <p class="blog-meta">
+                            <span class="blog-date">February 6, 2025</span>
+                            <span class="blog-author">Rinova International</span>
+                        </p>
+                        <p class="blog-excerpt">
+                            Have you ever wanted to explore a subject you love, add new knowledge, 
+                            and become an expert in your field? A Masters by Research in Australia gives...
+                        </p>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card fade-up">
+                    <div class="blog-image-container">
+                        <img src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg" alt="Intakes in Australia 2025" class="blog-image">
+                        <div class="blog-overlay">
+                            <span class="blog-category">Admissions</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Intakes in Australia 2025: A Guide for International Students</h3>
+                        <p class="blog-meta">
+                            <span class="blog-date">January 14, 2025</span>
+                            <span class="blog-author">Rinova International</span>
+                        </p>
+                        <p class="blog-excerpt">
+                            Do you know the intake dates in Australia from Nepal in 2025? The first thing you'll 
+                            need to understand is the concept of intakes...
+                        </p>
+                        <a href="#" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title text-center fade-up">Get In Touch</h2>
+            <p class="section-subtitle text-center fade-up">Ready to start your educational journey? We're here to help!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info fade-up">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>rinovainternationaledu@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>+977-01-5450510<br>+977-9801333714</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Visit Us</h4>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form fade-up" id="enquiry">
+                    <h3 class="form-title">Book Your Consultation</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service-select" class="visually-hidden">Select Service</label>
+                        <select id="service-select" class="form-input" required>
+                            <option value="">Select Service</option>
+                            <option value="study-abroad">Study Abroad</option>
+                            <option value="ielts">IELTS & PTE</option>
+                            <option value="language">Language Classes</option>
+                            <option value="computer">Computer Classes</option>
+                            <option value="tuition">Tuition Classes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo">Rinova</div>
+                        <span class="logo-text">International</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering students for global success through comprehensive educational services and expert guidance.
+                    </p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#about">About Us</a>
+                        <a href="#programs">Programs</a>
+                        <a href="#blogs">Blogs</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Programs</h4>
+                    <div class="footer-links">
+                        <a href="#study-abroad">Study Abroad</a>
+                        <a href="#ielts">IELTS & PTE</a>
+                        <a href="#language">Language Classes</a>
+                        <a href="#computer">Computer Classes</a>
+                        <a href="#tuition">Tuition Classes</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <p>📧 rinovainternationaledu@gmail.com</p>
+                        <p>📞 +977-01-5450510</p>
+                        <p>📱 +977-9801333714</p>
+                        <p>📍 Kathmandu, Nepal</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rinova International Educational Institute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
