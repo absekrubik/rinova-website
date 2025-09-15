@@ -98,8 +98,8 @@ body {
   font-size: 32px;
   font-weight: 700;
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -1px;
 }
@@ -431,8 +431,8 @@ body {
 
 .gradient-text {
   background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
