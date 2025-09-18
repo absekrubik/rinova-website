@@ -69,14 +69,14 @@
     <!-- Hero Slideshow -->
     <section class="hero-slideshow" id="hero">
         <div class="slideshow-container">
-            <div class="slide active" data-bg="https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg">
+            <div class="slide active" data-bg="https://images.pexels.com/photos/3071145/pexels-photo-3071145.jpeg">
                 <div class="slide-content">
                     <h1 class="slide-title">Study in the UK</h1>
                     <p class="slide-subtitle">Discover world-class education in historic universities</p>
                     <button class="slide-btn">Explore Universities</button>
                 </div>
             </div>
-            <div class="slide" data-bg="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg">
+            <div class="slide" data-bg="https://images.pexels.com/photos/2434267/pexels-photo-2434267.jpeg">
                 <div class="slide-content">
                     <h1 class="slide-title">Study in Australia</h1>
                     <p class="slide-subtitle">Experience quality education in a vibrant multicultural society</p>
@@ -97,28 +97,28 @@
                     <button class="slide-btn">Explore Universities</button>
                 </div>
             </div>
-            <div class="slide" data-bg="https://images.pexels.com/photos/3626622/pexels-photo-3626622.jpeg">
+            <div class="slide" data-bg="https://images.pexels.com/photos/17824128/pexels-photo-17824128.jpeg">
                 <div class="slide-content">
                     <h1 class="slide-title">Study in New Zealand</h1>
                     <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
                     <button class="slide-btn">Explore Universities</button>
                 </div>
             </div>
-            <div class="slide" data-bg="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg">
+            <div class="slide" data-bg="https://images.pexels.com/photos/574324/pexels-photo-574324.jpeg">
                 <div class="slide-content">
                     <h1 class="slide-title">Study in India</h1>
                     <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
                     <button class="slide-btn">Explore Universities</button>
                 </div>
             </div>
-            <div class="slide" data-bg="https://images.pexels.com/photos/3626622/pexels-photo-3626622.jpeg">
+            <div class="slide" data-bg="https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg">
                 <div class="slide-content">
                     <h1 class="slide-title">Study in Japan</h1>
                     <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
                     <button class="slide-btn">Explore Universities</button>
                 </div>
             </div>
-            <div class="slide" data-bg="https://images.pexels.com/photos/3626622/pexels-photo-3626622.jpeg">
+            <div class="slide" data-bg="https://images.pexels.com/photos/237211/pexels-photo-237211.jpeg">
                 <div class="slide-content">
                     <h1 class="slide-title">Study in Korea</h1>
                     <p class="slide-subtitle">Discover innovative education in stunning landscapes</p>
@@ -138,6 +138,9 @@
             <span class="indicator" data-slide="2"></span>
             <span class="indicator" data-slide="3"></span>
             <span class="indicator" data-slide="4"></span>
+            <span class="indicator" data-slide="5"></span>
+            <span class="indicator" data-slide="6"></span>
+            <span class="indicator" data-slide="7"></span>
         </div>
     </section>
 
@@ -416,7 +419,7 @@
                         <div class="contact-icon">📧</div>
                         <div class="contact-details">
                             <h4>Email Us</h4>
-                            <p>rinovainternationaledu@gmail.com</p>
+                            <p>support@rinova.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -433,22 +436,29 @@
                             <p>Kathmandu, Nepal</p>
                         </div>
                     </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h4>Office Hours</h4>
+                            <p>Sunday - Friday: 7:00 AM - 6:00 PM<br>Saturday: Closed</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <form class="contact-form fade-up" id="enquiry">
+                <form class="contact-form fade-up" id="contact-form"> <p id="form-status"></p>
                     <h3 class="form-title">Book Your Consultation</h3>
                     <div class="form-group">
-                        <input type="text" class="form-input" placeholder="Full Name" required>
+                        <input type="text" name="name" class="form-input" placeholder="Full Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-input" placeholder="Email Address" required>
+                        <input type="email" name="email" class="form-input" placeholder="Email Address" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-input" placeholder="Phone Number" required>
+                        <input type="tel" name="phone" class="form-input" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group">
                         <label for="service-select" class="visually-hidden">Select Service</label>
-                        <select id="service-select" class="form-input" required>
+                        <select id="service-select" name="service" class="form-input" required>
                             <option value="">Select Service</option>
                             <option value="study-abroad">Study Abroad</option>
                             <option value="ielts">IELTS & PTE</option>
@@ -458,7 +468,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-input" rows="4" placeholder="Your Message" required></textarea>
+                        <textarea name="message" class="form-input" rows="4" placeholder="Your Message" required></textarea>
                     </div>
                     <button type="submit" class="btn primary-btn form-submit">Send Message</button>
                 </form>
@@ -505,7 +515,7 @@
                 <div class="footer-column">
                     <h4 class="footer-title">Contact Info</h4>
                     <div class="footer-contact">
-                        <p>📧 rinovainternationaledu@gmail.com</p>
+                        <p>📧 support@rinova.com</p>
                         <p>📞 +977-01-5450510</p>
                         <p>📱 +977-9801333714</p>
                         <p>📍 Kathmandu, Nepal</p>

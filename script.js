@@ -257,27 +257,36 @@ function initializeFormAnimations() {
     
     // Form submission
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const submitBtn = this.querySelector('.form-submit');
-            const originalText = submitBtn.textContent;
-            
-            // Animate button
-            submitBtn.textContent = 'Sending...';
-            submitBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
-            
-            // Simulate form submission
-            setTimeout(() => {
-                submitBtn.textContent = 'Message Sent! ✓';
-                setTimeout(() => {
-                    submitBtn.textContent = originalText;
-                    submitBtn.style.background = '';
-                    this.reset();
-                }, 2000);
-            }, 1500);
-        });
-    }
+    contactForm.addEventListener("submit", async function(e) {
+        e.preventDefault();
+        const submitBtn = this.querySelector('.form-submit');
+        const status = document.getElementById("form-status");
+
+        submitBtn.textContent = "Sending...";
+        submitBtn.disabled = true;
+
+        const data = new FormData(contactForm);
+        try {
+            const response = await fetch("https://formspree.io/f/mkgvleky", {
+                method: "POST",
+                body: data,
+                headers: { "Accept": "application/json" }
+            });
+
+            if (response.ok) {
+                status.textContent = "✅ Message sent successfully!";
+                contactForm.reset();
+            } else {
+                status.textContent = "❌ Oops! Something went wrong.";
+            }
+        } catch (error) {
+            status.textContent = "❌ Network error. Please try again.";
+        }
+
+        submitBtn.textContent = "Send Message";
+        submitBtn.disabled = false;
+    });
+}
 }
 
 // Service card interactions

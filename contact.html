@@ -62,13 +62,20 @@
             </button>
         </div>
     </header>
-    <!-- Page Header -->
-    <section class="page-header">
+
+        <!-- Page Header -->
+<section class="hero-content">
         <div class="container">
-            <h1 class="page-title fade-up">Contact Us</h1>
-            <p class="page-subtitle fade-up">Get in touch with our expert team</p>
-        </div>
-    </section>
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Contact</span><br/>
+                    <span class="highlight">Us. </span>
+                    
+                </h1>
+                <p class="hero-description">
+                    Get in Touch with Our Expert Team</p>
+            </div>
+</section>
 
     <!-- Contact Content -->
     <section class="section contact-main">
@@ -84,7 +91,7 @@
                         <div class="contact-icon">📧</div>
                         <div class="contact-details">
                             <h4>Email Us</h4>
-                            <p>rinovainternationaledu@gmail.com</p>
+                            <p>support@rinova.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -105,41 +112,35 @@
                         <div class="contact-icon">🕒</div>
                         <div class="contact-details">
                             <h4>Office Hours</h4>
-                            <p>Sunday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM</p>
+                            <p>Sunday - Friday: 7:00 AM - 6:00 PM<br>Saturday: Closed</p>
                         </div>
                     </div>
                 </div>
                 
-                <form class="contact-form fade-up">
-                    <h3 class="form-title">Send Us a Message</h3>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <input type="text" class="form-input" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-input" placeholder="Last Name" required>
-                        </div>
+                <form class="contact-form fade-up" id="contact-form"> <p id="form-status"></p>
+                    <h3 class="form-title">Book Your Consultation</h3>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-input" placeholder="Full Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-input" placeholder="Email Address" required>
+                        <input type="email" name="email" class="form-input" placeholder="Email Address" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-input" placeholder="Phone Number" required>
+                        <input type="tel" name="phone" class="form-input" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group">
-                        <labellabel for="service-select" class="form-label">Service</label>
-                        <select id="service-select" class="form-input" required title="Select Service">
+                        <label for="service-select" class="visually-hidden">Select Service</label>
+                        <select id="service-select" name="service" class="form-input" required>
                             <option value="">Select Service</option>
-                            <option value="study-abroad">Study Abroad Guidance</option>
-                            <option value="ielts">IELTS & PTE Preparation</option>
+                            <option value="study-abroad">Study Abroad</option>
+                            <option value="ielts">IELTS & PTE</option>
                             <option value="language">Language Classes</option>
                             <option value="computer">Computer Classes</option>
                             <option value="tuition">Tuition Classes</option>
-                            <option value="exam-prep">Exam Preparation</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                        <textarea name="message" class="form-input" rows="4" placeholder="Your Message" required></textarea>
                     </div>
                     <button type="submit" class="btn primary-btn form-submit">Send Message</button>
                 </form>
@@ -202,7 +203,7 @@
                 <div class="footer-column">
                     <h4 class="footer-title">Contact Info</h4>
                     <div class="footer-contact">
-                        <p>📧 rinovainternationaledu@gmail.com</p>
+                        <p>📧 support@rinova.com</p>
                         <p>📞 +977-01-5450510</p>
                         <p>📱 +977-9801333714</p>
                         <p>📍 Kathmandu, Nepal</p>
