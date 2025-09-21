@@ -8,42 +8,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
+     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
             <div class="logo-container">
                 <a href="index.html" class="logo-link" title="Rinova Institute Home">
+                    <a href="index.html" class="logo-link">
                         <img src="images/logo.png" alt="Rinova Institute Logo" class="logo-img">
                     </a>
+                </a>
             </div>
             
             <nav class="nav" id="nav">
                 <div class="nav-item">
-                    <a href="about.html" class="nav-link active">About Us</a>
+                    <a href="aboutus.html" class="nav-link">About Us</a>
                 </div>
                 <div class="nav-item dropdown-parent">
                     <a href="#programs" class="nav-link">Programs <span class="dropdown-arrow">▾</span></a>
                     <div class="dropdown">
-                        <a href="index.html#study-abroad" class="dropdown-link">Abroad Study</a>
-                        <a href="index.html#ielts" class="dropdown-link">IELTS & PTE</a>
-                        <a href="index.html#exam-prep" class="dropdown-link">Exam Preparation</a>
-                        <a href="index.html#language" class="dropdown-link">Language Classes</a>
-                        <a href="index.html#computer" class="dropdown-link">Computer Classes</a>
-                        <a href="index.html#tuition" class="dropdown-link">Tuition Classes</a>
+                        <a href="abroad-study.html" class="dropdown-link">Abroad Study</a>
+                        <a href="ielts-pte.html" class="dropdown-link">IELTS & PTE</a>
+                        <a href="exam-preparation.html" class="dropdown-link">Exam Preparation</a>
+                        <a href="language-classes.html" class="dropdown-link">Language Classes</a>
+                        <a href="computer-classes.html" class="dropdown-link">Computer Classes</a>
+                        <a href="tuition-classes.html" class="dropdown-link">Tuition Classes</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown-parent">
+                    <a href="#study-destinations" class="nav-link">Study Abroad <span class="dropdown-arrow">▾</span></a>
+                    <div class="dropdown">
+                        <a href="studyinuk.html" class="dropdown-link">Study In UK</a>
+                        <a href="studyinaustralia.html" class="dropdown-link">Study In Australia</a>
+                        <a href="studyinus.html" class="dropdown-link">Study In US</a>
+                        <a href="studyincanada.html" class="dropdown-link">Study In Canada</a>
+                        <a href="studyinnewzealand.html" class="dropdown-link">Study In New Zealand</a>
+                        <a href="studyinindia.html" class="dropdown-link">Study In India</a>
+                        <a href="studyinjapan.html" class="dropdown-link">Study In Japan</a>
+                        <a href="studyinkorea.html" class="dropdown-link">Study In Korea</a>
                     </div>
                 </div>
                 <div class="nav-item">
-                    <a href="index.html#blogs" class="nav-link">Blogs</a>
+                    <a href="blog.html" class="nav-link">Blogs</a>
                 </div>
                 <div class="nav-item">
-                    <a href="index.html#contact" class="nav-link">Contact</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
                 </div>
                 <div class="nav-item">
-                    <a href="index.html#enquiry" class="btn primary-btn nav-cta">Enquiry Now</a>
+                    <a href="enquiry.html" class="btn primary-btn nav-cta">Enquiry Now</a>
                 </div>
             </nav>
 
-            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Open mobile menu">
+            <buttonbutton class="mobile-menu-toggle" id="mobile-toggle" aria-label="Open mobile menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -51,63 +66,156 @@
         </div>
     </header>
 
-    <!-- About Hero Section -->
-    <section class="hero-content about-hero">
-        <div class="container">
-            <div class="hero-text">
-                <h1 class="hero-title">
-                    About <span class="highlight">Rinova International</span>
-                </h1>
-                <p class="hero-description fade-up">
-                    Rinova International Educational Institute has been a leading educational organization in Nepal since 2010. 
-                    We are committed to empowering students with high-quality guidance, training, and support for both local and international opportunities.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#mission" class="btn primary-btn">Our Mission</a>
-                    <a href="#team" class="btn secondary-btn">Meet the Team</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="https://images.pexels.com/photos/159844/pexels-photo-159844.jpeg" alt="Rinova Campus" class="hero-image">
-                </div>
+          <!-- Page Header -->
+<section class="hero-content">
+    <div class="container hero-flex">
+        <!-- Left Content -->
+        <div class="hero-text">
+            <h1 class="hero-title">
+                <span class="highlight">About </span><br/>
+                <span class="gradient-text">Rinova International.</span>
+            </h1>
+            <p class="hero-description fade-up">
+                Rinova International Educational Institute has been a leading educational organization in Nepal since 2010. 
+                We are committed to empowering students with high-quality guidance, training, and support for both local and international opportunities.
+            </p>
+            <div class="hero-buttons">
+                <a href="#mission" class="btn primary-btn">Our Mission</a>
+                <a href="#team" class="btn secondary-btn">Meet the Team</a>
             </div>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="section about-section" id="mission">
-        <div class="container">
-            <div class="section-content">
-                <h2 class="section-title fade-up">Our Mission</h2>
-                <p class="section-text fade-up">
-                    To empower students for global success by providing comprehensive educational services, including study abroad guidance, computer training, language classes, and personalized tuition. 
-                    We strive to create opportunities that prepare students for academic excellence and professional growth.
-                </p>
-                
-                <div class="stats-grid">
-                    <div class="stat-item fade-up">
-                        <div class="stat-icon">📅</div>
-                        <h3 class="stat-number">2+</h3>
-                        <p class="stat-label">Years of Excellence</p>
-                        <p class="stat-description">Since our inception, we have helped hundreds of students reach their goals.</p>
-                    </div>
-                    <div class="stat-item fade-up">
-                        <div class="stat-icon">🎓</div>
-                        <h3 class="stat-number">30+</h3>
-                        <p class="stat-label">Programs Offered</p>
-                        <p class="stat-description">We offer a wide range of educational programs to suit every student's needs.</p>
-                    </div>
-                    <div class="stat-item fade-up">
-                        <div class="stat-icon">👥</div>
-                        <h3 class="stat-number">15</h3>
-                        <p class="stat-label">Expert Team Members</p>
-                        <p class="stat-description">Our experienced team ensures every student receives personalized attention and guidance.</p>
-                    </div>
+        <!-- Right Image -->
+        <div class="hero-visual">
+            <div class="hero-image-container">
+                <img src="https://images.pexels.com/photos/7412001/pexels-photo-7412001.jpeg" alt="Rinova Campus" class="hero-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section class="section about-section" id="mission">
+  <div class="container about-flex">
+
+    <!-- Left Image -->
+    <div class="about-image">
+      <img src="https://images.pexels.com/photos/7412001/pexels-photo-7412001.jpeg" alt="Rinova Campus" class="hero-image">
+    </div>
+
+    <!-- Right Content -->
+    <div class="about-text">
+      <h2 class="section-title fade-up">Our Mission</h2>
+      <p class="section-text fade-up">
+        To empower students for global success by providing comprehensive educational services, including study abroad guidance, computer training, language classes, and personalized tuition. 
+        We strive to create opportunities that prepare students for academic excellence and professional growth.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-item fade-up">
+          <div class="stat-icon">📅</div>
+          <h3 class="stat-number">2+</h3>
+          <p class="stat-label">Years of Excellence</p>
+          <p class="stat-description">Since our inception, we have helped hundreds of students reach their goals.</p>
+        </div>
+        <div class="stat-item fade-up">
+          <div class="stat-icon">🎓</div>
+          <h3 class="stat-number">30+</h3>
+          <p class="stat-label">Programs Offered</p>
+          <p class="stat-description">We offer a wide range of educational programs to suit every student's needs.</p>
+        </div>
+        <div class="stat-item fade-up">
+          <div class="stat-icon">👥</div>
+          <h3 class="stat-number">15</h3>
+          <p class="stat-label">Expert Team Members</p>
+          <p class="stat-description">Our experienced team ensures every student receives personalized attention and guidance.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Meet the Team Section -->
+<section class="section team-section" id="team">
+    <div class="container">
+        <h2 class="section-title fade-up">Meet the Team</h2>
+        <div class="team-grid">
+
+            <!-- Team Member Card -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Milan.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Milan Shrestha</h3>
+                    <p class="team-role">Cheif Executive Officer (CEO)</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Rina.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Rina Shrestha</h3>
+                    <p class="team-role">Managing Director</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Pratiksha.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Pratisha Ghimire</h3>
+                    <p class="team-role">HR Manager/IELTS Instructor</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Rubik.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Rubik Kafle</h3>
+                    <p class="team-role">IT Officer</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Ritesh.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Ritesh Shrestha</h3>
+                    <p class="team-role">Coordinator</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Jiya.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Jeeya Shrestha</h3>
+                    <p class="team-role">Front Desk Officer</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="images/Sikshya.png" alt="Team Member">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Sikshya Tandukar</h3>
+                    <p class="team-role">Content Creator</p>
                 </div>
             </div>
         </div>
-    </section> 
+    </div>
+</section>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
